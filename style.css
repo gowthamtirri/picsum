@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: #ececfe;
+}
+.container {
+  text-align: center;
+  padding: 20px;
+}
+.container h1 {
+  font-size: 60px;
+  color: teal;
+  margin-top: 50px;
+}
+.container h3 {
+  color: teal;
+  font-size: 25px;
+  margin-top: 10px;
+}
+.btn {
+  padding: 15px 25px;
+  border: none;
+  outline: none;
+  background-color: teal;
+  color: whitesmoke;
+  border-radius: 5px;
+  margin-top: 30px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+.images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  grid-gap: 1em;
+}
+img {
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px #00000018;
+}
